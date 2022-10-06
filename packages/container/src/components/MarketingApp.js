@@ -9,6 +9,11 @@ export default () => {
   }, [])
 
   return (
-    <div ref={ref}></div>
+    <div>
+      <h1>Container app</h1>
+      <hr />
+      <div ref={ref}></div>
+
+    </div>
   )
 };
