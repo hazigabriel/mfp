@@ -70,6 +70,7 @@ export default function Album() {
     <React.Fragment>
       <main>
         {/* Hero unit */}
+
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
             <Typography
