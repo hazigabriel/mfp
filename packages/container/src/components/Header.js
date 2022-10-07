@@ -71,7 +71,7 @@ export default function Header({ signedIn, onSignOut }) {
         elevation={0}
         className={classes.appBar}
       >
-        <Toolbar className={classes.toolbar}>
+        <Toolbar className={classes.toolbar} >
           <Typography
             variant="h6"
             color="inherit"
