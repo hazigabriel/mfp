@@ -10,10 +10,7 @@ export default () => {
 
   return (
     <div>
-      <h1>Container app</h1>
-      <hr />
       <div ref={ref}></div>
-
     </div>
   )
 };
